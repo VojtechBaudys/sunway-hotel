@@ -23,7 +23,9 @@ export default tseslint.config(
 				'warn',
 				{ allowConstantExport: true },
 			],
-			indent: ["error", "tab"],
+			indent: ['error', 'tab'],
+			quotes: [1, 'single'],
+			semi: [1, "always"],
 		},
 	},
 )
