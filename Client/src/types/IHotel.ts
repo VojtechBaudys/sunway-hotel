@@ -6,7 +6,7 @@ interface IHotel {
 	location: string;
 	rating: number;
 	imageUrl: string;
-	datesOfTravel: Date[];
+	datesOfTravel: string[];
 	boardBasis: string;
 	rooms: IRoom[];
 }

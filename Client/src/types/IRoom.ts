@@ -1,5 +1,5 @@
 interface IRoom {
-	roomType: 'Deluxe Suite' | 'Family Room';
+	roomType: string;
 	amount: number;
 }
 
