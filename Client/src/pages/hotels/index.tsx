@@ -10,16 +10,19 @@ function Hotels(): React.ReactElement {
 	const hotels: IHotel[] = data;
 
 	return (
-		<AppSection>
+		<>
 			{ !loading
 				? (
-					<div className='mb-4 grid gap-4 sm:grid-cols-2 md:mb-8 lg:grid-cols-3 xl:grid-cols-4'>
-						{ hotels.map(hotel => <HotelCard key={hotel.id} hotel={hotel} />) }
-					</div>
+					<AppSection>
+						<div className='mb-4 grid gap-4 sm:grid-cols-2 md:mb-8 lg:grid-cols-3 xl:grid-cols-4'>
+							{ hotels.map(hotel => <HotelCard key={hotel.id} hotel={hotel} />) }
+						</div>
+					</AppSection>
+
 				)
 				: <LoadingSpinner />
 			}
-		</AppSection>
+		</>
 	);
 }
 
