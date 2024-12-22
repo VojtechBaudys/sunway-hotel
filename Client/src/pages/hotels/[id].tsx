@@ -1,6 +1,7 @@
+import React from 'react';
 import { useParams } from 'react-router';
 
-function HotelDetail() {
+function HotelDetail(): React.ReactElement {
 	const { id } = useParams();
 
 	return (
