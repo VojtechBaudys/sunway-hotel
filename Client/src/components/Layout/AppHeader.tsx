@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router';
 
-const PageHeader = (): React.ReactElement => {
+const AppHeader = (): React.ReactElement => {
 	const [showMenu, setShowMenu] = useState<boolean>(false);
 
 	return (
@@ -12,7 +12,7 @@ const PageHeader = (): React.ReactElement => {
 						<img src='https://www.sunway.ie/images/new/logo.png' className='mr-3 h-12 sm:h-16' alt='Sunway Logo' />
 					</Link>
 					<div className={`absolute bg-white ${showMenu ? 'top-[0]': 'top-[-100%]'} transition-all duration-500 left-0 justify-between items-center w-full lg:flex lg:relative lg:w-auto lg:order-1`}>
-						<ul className='flex flex-col text-lg font-medium lg:flex-row lg:space-x-8 lg:mt-0'>
+						<ul className='flex flex-col text-lg font-medium lg:flex-row lg:space-x-2 lg:mt-0'>
 							<li className='self-end'>
 								<button onClick={() => setShowMenu(!showMenu)} type='button' className='items-center p-2 ml-1 mr-4 text-sm text-gray-500 rounded-lg lg:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200'>
 									<span className='sr-only'>Close main menu</span>
@@ -21,6 +21,9 @@ const PageHeader = (): React.ReactElement => {
 							</li>
 							<li>
 								<Link to={'/hotels'} className='block p-4 text-center text-gray-700 lg:hover:text-primary-700 hover:underline'>Hotels</Link>
+							</li>
+							<li>
+								<Link to={'/'} className='block p-4 text-center text-gray-700 lg:hover:text-primary-700 hover:underline'>Home</Link>
 							</li>
 						</ul>
 					</div>
@@ -34,4 +37,4 @@ const PageHeader = (): React.ReactElement => {
 	);
 };
 
-export default PageHeader;
+export default AppHeader;

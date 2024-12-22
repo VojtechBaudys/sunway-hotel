@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router';
 
-const PageFooter = (): React.ReactElement => {
+const AppFooter = (): React.ReactElement => {
 	return (
 		<footer className='pt-4 bg-white md:pt-8 lg:pt-10'>
 			<div className='flex flex-col items-center text-center'>
@@ -28,4 +28,4 @@ const PageFooter = (): React.ReactElement => {
 	);
 };
 
-export default PageFooter;
+export default AppFooter;
