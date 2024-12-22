@@ -5,7 +5,7 @@ type Props = React.ComponentProps<typeof Link> & {
 	children?: React.ReactNode;
 };
 
-function AppRouterButton(props: Props): React.ReactElement {
+function RouterButton(props: Props): React.ReactElement {
 	const defaultClassName = 'flex justify-center w-full bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-600';
 	const defaultText = 'Click';
 
@@ -16,4 +16,4 @@ function AppRouterButton(props: Props): React.ReactElement {
 	);
 }
 
-export default AppRouterButton;
+export default RouterButton;

@@ -3,7 +3,7 @@ import { IHotel } from '@/types';
 import { Link } from 'react-router';
 import { formateDateInterval, formateRoomsAvailability, truncateText } from '@/utils/formateUtils';
 import StarRating from '@components/shared/StarRating';
-import AppRouterButton from '../shared/AppRouterButton';
+import RouterButton from '../shared/RouterButton';
 import HotelText from '../shared/HotelText';
 
 type Props = {
@@ -17,7 +17,7 @@ function HotelCard(props: Props): React.ReactElement {
 		<div className='rounded-lg border border-gray-200 bg-gray-100 shadow-sm'>
 			<div className='h-56 w-full overflow-hidden rounded-t-lg'>
 				<Link to={`/hotels/${hotel.id}`}>
-					<img className='w-full h-full object-cover transition-transform duration-300 ease-in-out hover:scale-110' src={hotel.imageUrl} alt='' />
+					<img className='w-full h-full object-cover transition-transform duration-300 ease-in-out hover:scale-110' src={hotel.imageUrl} alt={hotel.name} />
 				</Link>
 			</div>
 			<div className='flex flex-col p-6 h-[calc(100%-14rem)]'>
@@ -30,9 +30,9 @@ function HotelCard(props: Props): React.ReactElement {
 				<HotelText text={truncateText(formateRoomsAvailability(hotel.rooms), 70)} className='mt-2' />
 				<HotelText text={formateDateInterval(hotel.datesOfTravel)} className='text-gray-900 pt-4 mt-auto' />
 				<div className='mt-2'>
-					<AppRouterButton to={`/hotels/${hotel.id}`}>
+					<RouterButton to={`/hotels/${hotel.id}`}>
 						Book Now
-					</AppRouterButton>
+					</RouterButton>
 				</div>
 			</div>
 		</div>

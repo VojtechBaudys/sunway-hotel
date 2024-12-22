@@ -1,6 +1,6 @@
 import React from 'react';
 import { IRoom } from '@/types';
-import AppRouterButton from '../shared/AppRouterButton';
+import RouterButton from '../shared/RouterButton';
 
 type Props = {
 	room: IRoom;
@@ -16,9 +16,9 @@ function Room(props: Props): React.ReactElement {
 				<p className='text-gray-700'>Available: {room.amount}</p>
 			</div>
 			<div>
-				<AppRouterButton to={''}>
+				<RouterButton to={''}>
 					Book Now
-				</AppRouterButton>
+				</RouterButton>
 			</div>
 		</div>
 	);
