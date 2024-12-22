@@ -4,7 +4,7 @@
 		"name": "Seaside Paradise",
 		"location": "Maldives",
 		"rating": 4.9,
-		"imageUrl": "https://example.com/images/seaside-paradise.jpg",
+		"imageUrl": "https://cdn.britannica.com/96/115096-050-5AFDAF5D/Bellagio-Hotel-Casino-Las-Vegas.jpg",
 		"datesOfTravel": [
 			"2024-01-01",
 			"2024-01-07"
@@ -25,8 +25,8 @@
 		"id": 2,
 		"name": "Seaside Paradise",
 		"location": "Maldives",
-		"rating": 4.9,
-		"imageUrl": "https://example.com/images/seaside-paradise.jpg",
+		"rating": 3.5,
+		"imageUrl": "https://cdn.britannica.com/96/115096-050-5AFDAF5D/Bellagio-Hotel-Casino-Las-Vegas.jpg",
 		"datesOfTravel": [
 			"2024-01-01",
 			"2024-01-07"
@@ -48,7 +48,7 @@
 		"name": "Seaside Paradise",
 		"location": "Maldives",
 		"rating": 4.9,
-		"imageUrl": "https://example.com/images/seaside-paradise.jpg",
+		"imageUrl": "https://cdn.britannica.com/96/115096-050-5AFDAF5D/Bellagio-Hotel-Casino-Las-Vegas.jpg",
 		"datesOfTravel": [
 			"2024-01-01",
 			"2024-01-07"
@@ -70,7 +70,7 @@
 		"name": "Seaside Paradise",
 		"location": "Maldives",
 		"rating": 4.9,
-		"imageUrl": "https://example.com/images/seaside-paradise.jpg",
+		"imageUrl": "https://cdn.britannica.com/96/115096-050-5AFDAF5D/Bellagio-Hotel-Casino-Las-Vegas.jpg",
 		"datesOfTravel": [
 			"2024-01-01",
 			"2024-01-07"
@@ -92,7 +92,7 @@
 		"name": "Seaside Paradise",
 		"location": "Maldives",
 		"rating": 4.9,
-		"imageUrl": "https://example.com/images/seaside-paradise.jpg",
+		"imageUrl": "https://cdn.britannica.com/96/115096-050-5AFDAF5D/Bellagio-Hotel-Casino-Las-Vegas.jpg",
 		"datesOfTravel": [
 			"2024-01-01",
 			"2024-01-07"
@@ -114,7 +114,51 @@
 		"name": "Seaside Paradise",
 		"location": "Maldives",
 		"rating": 4.9,
-		"imageUrl": "https://example.com/images/seaside-paradise.jpg",
+		"imageUrl": "https://cdn.britannica.com/96/115096-050-5AFDAF5D/Bellagio-Hotel-Casino-Las-Vegas.jpg",
+		"datesOfTravel": [
+			"2024-01-01",
+			"2024-01-07"
+		],
+		"boardBasis": "All Inclusive",
+		"rooms": [
+			{
+				"roomType": "Deluxe Suite",
+				"amount": 5
+			},
+			{
+				"roomType": "Family Room",
+				"amount": 3
+			}
+		]
+	},
+	{
+		"id": 7,
+		"name": "Seaside Paradise",
+		"location": "Maldives",
+		"rating": 4.4,
+		"imageUrl": "https://cdn.britannica.com/96/115096-050-5AFDAF5D/Bellagio-Hotel-Casino-Las-Vegas.jpg",
+		"datesOfTravel": [
+			"2024-01-01",
+			"2024-01-07"
+		],
+		"boardBasis": "All Inclusive",
+		"rooms": [
+			{
+				"roomType": "Deluxe Suite",
+				"amount": 5
+			},
+			{
+				"roomType": "Family Room",
+				"amount": 3
+			}
+		]
+	},
+	{
+		"id": 8,
+		"name": "Seaside Paradise",
+		"location": "Maldives",
+		"rating": 2,
+		"imageUrl": "https://cdn.britannica.com/96/115096-050-5AFDAF5D/Bellagio-Hotel-Casino-Las-Vegas.jpg",
 		"datesOfTravel": [
 			"2024-01-01",
 			"2024-01-07"
