@@ -11,7 +11,7 @@ function AppRouter(): React.ReactElement {
 				<Route index element={<Hotels />} />
 				<Route path=':id' element={<HotelDetail />} />
 			</Route>
-			<Route path='*' element={<Navigate to="/hotels" />} />
+			<Route path='*' element={<Navigate to='/hotels' />} />
 		</Routes>
 	);
 }

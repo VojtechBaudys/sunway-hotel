@@ -11,11 +11,13 @@ type Props = {
 const Layout = (props: Props): React.ReactElement => {
 	return (
 		<BrowserRouter>
-			<PageHeader />
-			<MainContent>
-				{props.children}
-			</MainContent>
-			<PageFooter />
+			<div className='flex flex-col min-h-screen'>
+				<PageHeader />
+				<MainContent>
+					{props.children}
+				</MainContent>
+				<PageFooter />
+			</div>
 		</BrowserRouter>
 	);
 };
