@@ -35,3 +35,4 @@ C:\Users\Vojtech\Desktop\sunway-hotel\Server\Server\obj\Debug\net8.0\refint\Serv
 C:\Users\Vojtech\Desktop\sunway-hotel\Server\Server\obj\Debug\net8.0\Server.pdb
 C:\Users\Vojtech\Desktop\sunway-hotel\Server\Server\obj\Debug\net8.0\Server.genruntimeconfig.cache
 C:\Users\Vojtech\Desktop\sunway-hotel\Server\Server\obj\Debug\net8.0\ref\Server.dll
+C:\Users\Vojtech\Desktop\sunway-hotel\Server\Server\bin\Debug\net8.0\Data\data.json
