@@ -1,12 +1,15 @@
 import React, { useEffect, useState } from 'react';
+import useAxios from '@/utils/api';
 import { IHotel } from '@/types';
+
 import HotelCard from '@/components/Hotels/HotelCard';
 import LoadingSpinner from '@/components/shared/LoadingSpinner';
 import AppSection from '@/components/Layout/AppSection';
-import useAxios from '@/utils/api';
 
 function Hotels(): React.ReactElement {
+	// api fetch
 	const { data, loading } = useAxios<IHotel[]>('/hotels', 'GET');
+	// all hotels
 	const [hotels, setHotels] = useState<IHotel[]>([]);
 
 	useEffect(() => {

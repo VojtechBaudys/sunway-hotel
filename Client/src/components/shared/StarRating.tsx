@@ -7,6 +7,7 @@ type Props = {
 function StarRating(props: Props): React.ReactElement {
 	const {rating} = props;
 
+	// convert number to array of booleans (4.2 => [true, true, true, true, false])
 	const stars = Array.from({ length: 5 }, (_, index) => index < Math.floor(rating));
 
 	return (
