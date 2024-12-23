@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { Link } from 'react-router';
 
 const AppHeader = (): React.ReactElement => {
+	// mobile menu
 	const [showMenu, setShowMenu] = useState<boolean>(false);
 
 	return (

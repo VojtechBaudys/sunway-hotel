@@ -1,7 +1,7 @@
 import React from 'react';
 import RouterButton from './RouterButton';
 
-function AppError(): React.ReactElement {
+function NotFound(): React.ReactElement {
 	return (
 		<section className='flex'>
 			<div className="self-center py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6">
@@ -16,4 +16,4 @@ function AppError(): React.ReactElement {
 	);
 }
 
-export default AppError;
+export default NotFound;

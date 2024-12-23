@@ -1,7 +1,8 @@
 import React from 'react';
-import { IHotel } from '@/types';
 import { Link } from 'react-router';
+import { IHotel } from '@/types';
 import { formateDateInterval, formateRoomsAvailability, truncateText } from '@/utils/formateUtils';
+
 import StarRating from '@components/shared/StarRating';
 import RouterButton from '../shared/RouterButton';
 import HotelText from '../shared/HotelText';
