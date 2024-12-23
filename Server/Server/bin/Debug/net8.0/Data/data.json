@@ -1,201 +1,187 @@
 [
     {
         "id": 1,
-        "name": "Ocean Breeze Resort",
+        "name": "Seaside Paradise",
         "location": "Maldives",
-        "rating": 4.8,
+        "rating": 4.9,
         "imageUrl": "https://plus.unsplash.com/premium_photo-1661964071015-d97428970584?q=80&w=2640&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-        "datesOfTravel": [
-            "2024-01-05",
-            "2024-01-12"
-        ],
+        "datesOfTravel": [ "2024-01-01", "2024-01-07" ],
         "boardBasis": "All Inclusive",
         "rooms": [
             {
                 "roomType": "Deluxe Suite",
-                "amount": 4
+                "amount": 5
+            },
+            {
+                "roomType": "Family Room",
+                "amount": 3
             }
         ]
     },
     {
         "id": 2,
-        "name": "Mountain View Retreat",
-        "location": "Switzerland",
-        "rating": 4.5,
+        "name": "Mountain Retreat",
+        "location": "Swiss Alps",
+        "rating": 4.7,
         "imageUrl": "https://plus.unsplash.com/premium_photo-1687960116497-0dc41e1808a2?q=80&w=2671&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-        "datesOfTravel": [
-            "2024-02-10",
-            "2024-02-18"
-        ],
-        "boardBasis": "Half Board",
+        "datesOfTravel": [ "2024-02-15", "2024-02-22" ],
+        "boardBasis": "Bed & Breakfast",
         "rooms": [
             {
-                "roomType": "Family Suite",
-                "amount": 4
-            },
-            {
-                "roomType": "Single Room",
-                "amount": 6
-            },
-            {
-                "roomType": "Double Room",
-                "amount": 7
+                "roomType": "Standard Room",
+                "amount": 10
             }
         ]
     },
     {
         "id": 3,
-        "name": "Cityscape Hotel",
-        "location": "New York, USA",
-        "rating": 4.2,
+        "name": "Urban Oasis",
+        "location": "New York City, USA",
+        "rating": 4.5,
         "imageUrl": "https://images.unsplash.com/photo-1549294413-26f195200c16?q=80&w=2400&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-        "datesOfTravel": [
-            "2024-03-01",
-            "2024-03-07"
-        ],
-        "boardBasis": "Bed & Breakfast",
+        "datesOfTravel": [ "2024-03-10", "2024-03-17" ],
+        "boardBasis": "Room Only",
         "rooms": [
             {
-                "roomType": "King Suite",
-                "amount": 3
+                "roomType": "Luxury Suite",
+                "amount": 2
             },
             {
-                "roomType": "Double Room",
-                "amount": 9
+                "roomType": "Standard Room",
+                "amount": 20
             }
         ]
     },
     {
         "id": 4,
-        "name": "Tropical Haven",
-        "location": "Bali, Indonesia",
-        "rating": 4.9,
+        "name": "Desert Dream",
+        "location": "Dubai, UAE",
+        "rating": 4.8,
         "imageUrl": "https://plus.unsplash.com/premium_photo-1675745329954-9639d3b74bbf?q=80&w=2335&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-        "datesOfTravel": [
-            "2024-04-15",
-            "2024-04-22"
-        ],
-        "boardBasis": "All Inclusive",
+        "datesOfTravel": [ "2024-04-01", "2024-04-10" ],
+        "boardBasis": "Half Board",
         "rooms": [
             {
-                "roomType": "Beachfront Villa",
-                "amount": 7
+                "roomType": "Luxury Villa",
+                "amount": 10
             },
             {
-                "roomType": "Garden Suite",
-                "amount": 3
-            },
-            {
-                "roomType": "Poolside Bungalow",
-                "amount": 4
-            },
-            {
-                "roomType": "Ocean View Room",
-                "amount": 2
+                "roomType": "Family Room",
+                "amount": 5
             }
         ]
     },
     {
         "id": 5,
-        "name": "Desert Mirage Resort",
-        "location": "Dubai, UAE",
+        "name": "Tropical Escape",
+        "location": "Bali, Indonesia",
         "rating": 4.6,
         "imageUrl": "https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-        "datesOfTravel": [
-            "2024-05-01",
-            "2024-05-10"
-        ],
-        "boardBasis": "Full Board",
+        "datesOfTravel": [ "2024-05-01", "2024-05-10" ],
+        "boardBasis": "All Inclusive",
         "rooms": [
             {
-                "roomType": "Luxury Suite",
-                "amount": 6
-            },
-            {
-                "roomType": "Twin Room",
+                "roomType": "Beach Villa",
                 "amount": 8
             },
             {
-                "roomType": "Penthouse Suite",
-                "amount": 1
+                "roomType": "Garden Room",
+                "amount": 12
             }
         ]
     },
     {
         "id": 6,
-        "name": "Countryside Escape",
-        "location": "Tuscany, Italy",
-        "rating": 4.7,
+        "name": "Historic Haven",
+        "location": "Rome, Italy",
+        "rating": 4.4,
         "imageUrl": "https://images.unsplash.com/photo-1505576391880-b3f9d713dc4f?q=80&w=1870&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-        "datesOfTravel": [
-            "2024-06-15",
-            "2024-06-22"
-        ],
-        "boardBasis": "Half Board",
+        "datesOfTravel": [ "2024-06-01", "2024-06-07" ],
+        "boardBasis": "Breakfast Included",
         "rooms": [
             {
-                "roomType": "Rustic Suite",
-                "amount": 2
+                "roomType": "Classic Room",
+                "amount": 15
             },
             {
-                "roomType": "Classic Room",
-                "amount": 7
+                "roomType": "Luxury Suite",
+                "amount": 5
             }
         ]
     },
     {
         "id": 7,
-        "name": "Northern Lights Lodge",
-        "location": "Reykjavik, Iceland",
-        "rating": 4.3,
+        "name": "Safari Lodge",
+        "location": "Serengeti, Tanzania",
+        "rating": 4.9,
         "imageUrl": "https://images.unsplash.com/photo-1490122417551-6ee9691429d0?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-        "datesOfTravel": [
-            "2024-12-01",
-            "2024-12-10"
-        ],
-        "boardBasis": "Bed & Breakfast",
+        "datesOfTravel": [ "2024-07-10", "2024-07-20" ],
+        "boardBasis": "Full Board",
         "rooms": [
             {
-                "roomType": "Panoramic Suite",
+                "roomType": "Luxury Tent",
+                "amount": 10
+            },
+            {
+                "roomType": "Family Suite",
                 "amount": 3
-            },
-            {
-                "roomType": "Standard Room",
-                "amount": 5
-            },
-            {
-                "roomType": "Aurora Cabin",
-                "amount": 4
             }
         ]
     },
     {
         "id": 8,
-        "name": "Rainforest Retreat",
-        "location": "Amazon, Brazil",
-        "rating": 4.1,
+        "name": "Ocean Breeze",
+        "location": "Gold Coast, Australia",
+        "rating": 4.3,
         "imageUrl": "https://images.unsplash.com/photo-1535827841776-24afc1e255ac?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-        "datesOfTravel": [
-            "2024-07-20",
-            "2024-07-30"
-        ],
-        "boardBasis": "Full Board",
+        "datesOfTravel": [ "2024-08-01", "2024-08-10" ],
+        "boardBasis": "Self Catering",
         "rooms": [
             {
-                "roomType": "Eco Lodge",
+                "roomType": "Ocean View Suite",
                 "amount": 6
             },
             {
+                "roomType": "Family Room",
+                "amount": 8
+            }
+        ]
+    },
+    {
+        "id": 9,
+        "name": "Rainforest Retreat",
+        "location": "Costa Rica",
+        "rating": 4.7,
+        "imageUrl": "https://images.unsplash.com/photo-1535827841776-24afc1e255ac?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "datesOfTravel": [ "2024-09-01", "2024-09-15" ],
+        "boardBasis": "All Inclusive",
+        "rooms": [
+            {
                 "roomType": "Jungle Bungalow",
-                "amount": 4
+                "amount": 7
             },
             {
-                "roomType": "Canopy Suite",
-                "amount": 3
+                "roomType": "Standard Room",
+                "amount": 10
+            }
+        ]
+    },
+    {
+        "id": 10,
+        "name": "Island Bliss",
+        "location": "Hawaii, USA",
+        "rating": 4.8,
+        "imageUrl": "https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "datesOfTravel": [ "2024-10-01", "2024-10-10" ],
+        "boardBasis": "Full Board",
+        "rooms": [
+            {
+                "roomType": "Beachfront Suite",
+                "amount": 12
             },
             {
-                "roomType": "Riverfront Cabin",
-                "amount": 2
+                "roomType": "Standard Room",
+                "amount": 15
             }
         ]
     }
