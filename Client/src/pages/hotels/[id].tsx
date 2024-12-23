@@ -2,17 +2,21 @@ import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router';
 import { IHotel } from '@/types';
 import { formateDateInterval } from '@/utils/formateUtils';
+import useAxios from '@/utils/api';
+
 import StarRating from '@/components/shared/StarRating';
 import Room from '@/components/HotelDetail/Room';
 import HotelText from '@/components/shared/HotelText';
 import AppSection from '@/components/Layout/AppSection';
 import LoadingSpinner from '@/components/shared/LoadingSpinner';
-import useAxios from '@/utils/api';
 import NotFound from '@/components/shared/NotFound';
 
 function HotelDetail(): React.ReactElement {
+	// url parameter
 	const { id } = useParams();
+	// fetch api
 	const { data, loading, error } = useAxios<IHotel>(`/hotels/${id}`, 'GET');
+	// hotel selected by id
 	const [hotel, setHotel] = useState<IHotel | null>(null);
 
 	useEffect(() => {
